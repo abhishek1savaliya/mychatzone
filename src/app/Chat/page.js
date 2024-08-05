@@ -31,7 +31,7 @@ const Chat = () => {
                 receiver: '66b09d42c4a850e6646a345d'
             }, {
                 headers: {
-                    'token': localStorage.getItem('token') || ''
+                    'token': localStorage.getItem('token')
                 }
             });
         } catch (error) {
