@@ -35,10 +35,8 @@ const Navbar = () => {
       }
     };
 
-    // Add event listener for clicks outside the component
     document.addEventListener('mousedown', handleClickOutside);
 
-    // Clean up the event listener on component unmount
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
